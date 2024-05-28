@@ -10,7 +10,9 @@
     "prettier": "prettier \"**/*.{json,ts,tsx}\"",
     "format:check": "npm run prettier -- --check",
     "format:fix": "npm run prettier -- --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "types:check": "tsc --noEmit"
+
   },
   "dependencies": {
     "next": "14.2.3",
